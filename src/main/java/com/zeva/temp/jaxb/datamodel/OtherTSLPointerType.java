@@ -17,7 +17,7 @@ import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlTransient;
 import javax.xml.bind.annotation.XmlType;
 
-import com.zeva.tlGen.dataModel.TLPointer;
+import com.zeva.tlgen.dataModel.TLPointer;
 
 
 /**

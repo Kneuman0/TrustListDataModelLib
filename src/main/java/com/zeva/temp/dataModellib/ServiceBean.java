@@ -11,8 +11,8 @@ import java.time.ZonedDateTime;
 import javafx.beans.property.SimpleObjectProperty;
 
 import com.zeva.certs.utils.CertificateUtilities;
-import com.zeva.tlGen.dataModel.CertificateBean;
-import com.zeva.tlGen.dataModel.ProviderAttribute;
+import com.zeva.tlgen.dataModel.CertificateBean;
+import com.zeva.tlgen.dataModel.ProviderAttribute;
 
 import sun.misc.BASE64Encoder;
 

@@ -27,8 +27,8 @@ import javax.xml.bind.annotation.XmlTransient;
 import javax.xml.bind.annotation.XmlType;
 
 import com.zeva.temp.jaxb.datamodel.dsig.KeyValueType;
-import com.zeva.tlGen.dataModel.CertificateBean;
-import com.zeva.tlGen.dataModel.ProviderAttribute;
+import com.zeva.tlgen.dataModel.CertificateBean;
+import com.zeva.tlgen.dataModel.ProviderAttribute;
 import com.zeva.certs.utils.CertificateUtilities;
 
 

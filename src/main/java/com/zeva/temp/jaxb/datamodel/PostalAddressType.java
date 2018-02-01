@@ -14,7 +14,7 @@ import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-import com.zeva.tlGen.dataModel.abstraction.SettingsDataType;
+import com.zeva.tlgen.dataModel.abstraction.SettingsDataType;
 
 
 /**

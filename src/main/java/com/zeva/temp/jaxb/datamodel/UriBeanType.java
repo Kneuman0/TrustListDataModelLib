@@ -1,6 +1,6 @@
 package com.zeva.temp.jaxb.datamodel;
 
-import com.zeva.tlGen.dataModel.abstraction.SettingsDataType;
+import com.zeva.tlgen.dataModel.abstraction.SettingsDataType;
 
 public class UriBeanType implements SettingsDataType{
 

@@ -8,7 +8,7 @@ import java.util.Map;
 import javafx.beans.property.SimpleObjectProperty;
 
 import com.zeva.temp.dataModellib.AddressBean;
-import com.zeva.tlGen.dataModel.ProviderAttribute;
+import com.zeva.tlgen.dataModel.ProviderAttribute;
 
 public class ProviderList extends ProviderAttribute{
 	String name;
