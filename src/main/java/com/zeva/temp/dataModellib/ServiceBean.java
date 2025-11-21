@@ -7,6 +7,7 @@ import java.security.cert.CertificateException;
 import java.security.cert.CertificateFactory;
 import java.security.cert.X509Certificate;
 import java.time.ZonedDateTime;
+import java.util.Base64;
 
 import javafx.beans.property.SimpleObjectProperty;
 
@@ -14,9 +15,6 @@ import com.zeva.certs.utils.CertificateUtilities;
 import com.zeva.tlgen.dataModel.CertificateBean;
 import com.zeva.tlgen.dataModel.ProviderAttribute;
 
-import sun.misc.BASE64Encoder;
-
-@SuppressWarnings("restriction")
 public class ServiceBean extends ProviderAttribute{
 	X509Certificate x509Certificate;
 	String serviceTypeIdentifier;
@@ -215,8 +213,8 @@ public class ServiceBean extends ProviderAttribute{
 		} catch (CertificateEncodingException e) {
 			e.printStackTrace();
 		}
-		BASE64Encoder encoder = new BASE64Encoder();
-		return encoder.encode(binary).replaceAll("[ \n\t\r]", "");
+		String encoded = Base64.getEncoder().encodeToString(binary);
+		return encoded.replaceAll("[ \n\t\r]", "");
 				
 	}
 
