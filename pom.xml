@@ -56,7 +56,7 @@
 	<dependency>
 		<groupId>com.github.Kneuman0</groupId>
 		<artifactId>GUIUtils</artifactId>
-		<version>-SNAPSHOT</version>
+		<version>master-SNAPSHOT</version>
 	</dependency>
   </dependencies>
    <build>
